@@ -15,6 +15,8 @@ import {
 import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import loginImage from "../../src/assets/img/loginImage.png";
+import facebookLogo from "./img/facebookLogo.jpg";
+import googleLogo from "./img/googleLogo.png";
 
 import "./Login.scss";
 
@@ -129,16 +131,27 @@ const Login = ({ error, response, loading, loginAuthAction, errorSetting }) => {
                 )}
               </center>
             </Form>
-
-            <center>
-              <div className="form_part">
-                <button>Sign in With Facebook</button>
-                <button>Sign in With Google</button>
-              </div>
-            </center>
-            <Col md={10}>
-              Dont have an account yet ? <Link to="/signup">Register</Link>
-            </Col>
+            <div className="social_login">
+              <a
+                href="http://localhost:3000/users/auth/facebook"
+                className="loginButton"
+              >
+                <img src={facebookLogo} className="loginLogo" />
+                <span className="loginBtnText">Sign in with Facebook</span>
+              </a>
+              <a
+                href="http://localhost:3000/users/auth/google"
+                className="loginButton"
+              >
+                <img src={googleLogo} className="loginLogo" />
+                <span className="loginBtnText">Sign in with Google</span>
+              </a>
+            </div>
+            <span className="centered">
+              <Col md={10}>
+                Dont have an account yet ? <Link to="/signup">Register</Link>
+              </Col>
+            </span>
           </Col>
         </Row>
       </Container>

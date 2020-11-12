@@ -1,0 +1,30 @@
+.socialLogin {
+  display: flex;
+  flex-direction: row;
+}
+.loginButton {
+  text-decoration: none;
+  border: orange 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #fff;
+  color: black;
+  margin: 10px;
+}
+.loginButton:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+}
+.loginLogo {
+  border-radius: 10px;
+  float: left;
+  border-radius: 7px;
+  width: 30px;
+  height: 30px;
+  margin-top: -4px;
+}
+.loginBtnText {
+  font-size: 17px;
+  color: gray;
+  margin-left: 10px;
+}

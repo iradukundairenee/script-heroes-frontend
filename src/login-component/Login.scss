@@ -1,0 +1,80 @@
+.menu {
+  padding: 10px;
+  margin: 10px;
+  font-size: small;
+  background-color: #728191;
+}
+.menu a {
+  padding: 10px;
+  text-decoration: none;
+  color: #f9a826;
+  margin: 10px;
+}
+.container {
+  padding: 10px;
+}
+.login {
+  padding: 10px;
+}
+.login_text {
+  width: 60%;
+  padding: 10px;
+}
+.login_form {
+  width: 40%;
+  padding: 10px;
+}
+.login_image {
+  width: 70%;
+}
+.login_form {
+  background-color: #e1e1e1;
+  border-radius: 10px;
+}
+.inputs {
+  margin-left: 60px;
+}
+.btn {
+  color: #f9a826;
+  text-decoration: none;
+}
+.sub_title {
+  text-align: center;
+  color: #f9a826;
+}
+h1 {
+  font-family: "Calibri" !important;
+  text-align: center;
+}
+.logo {
+  width: 300px;
+  height: 50px;
+}
+.footer {
+  background-color: #728191;
+}
+.footer img {
+  margin: 10px;
+  border-radius: 12px;
+}
+input[type="email"],
+input[type="password"] {
+  border: transparent 1px solid;
+}
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  padding: 4px;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  background-color: gray;
+  border: gray 1px solid;
+}
+form {
+  padding: 10px;
+}
+.form_part {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
